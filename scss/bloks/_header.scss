@@ -1,0 +1,100 @@
+.header {
+    &__inner-container {}
+
+    &__wrapper {}
+
+    &__list {
+        display: flex;
+        align-items: center;
+    }
+
+    &__item {
+        display: flex;
+    }
+
+    &__logo-link {}
+
+    &__just {}
+
+    &__navbar {
+        display: flex;
+        margin-left: 58px;
+        gap: 32px;
+    }
+
+    &__link {
+        text-decoration: none;
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 25px;
+        color: #939CAA;
+
+        &:hover {
+            color: #FCB72B;
+        }
+
+    }
+
+    &__button {
+        margin-left: 511px;
+        padding: 14px 14px;
+        width: 180px;
+        border: none;
+        outline: none;
+        background: #FCB72B;
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 25px;
+        text-align: center;
+        color: #FFFFFF;
+        margin-bottom: 25px;
+
+        &:hover {
+            background-color: white;
+            color: #FCB72B;
+            box-shadow: 0 0 0 3px #FCB72B; 
+        }
+
+
+    }
+}
+
+@media only screen and (max-width:1142px){
+    .header{
+        &__button{
+            margin-left: 440px;
+        }
+    }
+
+}
+
+@media only screen and (max-width:1072px){
+    .header{
+        &__button{
+            margin-left: 380px;
+        }
+    }
+
+}
+
+@media only screen and (max-width:1010px){
+    .header{
+        &__button{
+            margin-left: 300px;
+        }
+    }
+
+}
+
+@media only screen and (max-width:930px){
+    .header{
+        &__button{
+            margin-left: 230px;
+        }
+    }
+
+}

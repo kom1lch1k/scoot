@@ -1,0 +1,63 @@
+.store {
+
+    .bg-container {
+        background-image: url(./../images/mask.svg);
+        background-color: #495567;
+        background-repeat: no-repeat ;
+    }
+
+    &__inner-container {
+        padding-bottom: 106px;
+        padding-top: 106px;
+    }
+
+    &__wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__heading {
+        max-width: 416px;
+        font-family: 'Space Mono';
+        width: 100%;
+        letter-spacing: -2.14286px;
+        font-size: 48px;
+        line-height: 48px;
+        color: #FFFFFF;
+    }
+
+    &__list {
+        display: flex;
+        align-items: center;
+        gap: 18px;
+    }
+
+    &__item {
+        display: flex;
+        align-items: center;
+        border-radius: 10px;
+        padding: 8px 16px;
+        background-color: #E5ECF4;
+    }
+
+    &__item-info {
+        margin-left: 11px;
+    }
+
+    &__item-text {
+        font-family: 'Space Mono';
+        letter-spacing: -0.446429px;
+        font-size: 10px;
+        line-height: 15px;
+        color: #495567;
+    }
+
+    &__item-heading {
+        font-family: 'Space Mono';
+        font-size: 20px;
+        line-height: 24px;
+        letter-spacing: -0.892857px;
+        color: #495567;
+    }
+}
