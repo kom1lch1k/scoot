@@ -33,21 +33,6 @@
             left: calc(100% + 64px);
         }
 
-        &__image-wrapp {
-            position: relative;
-
-            &::before {
-                content: "";
-                display: inline-block;
-                width: 445px;
-                height: 445px;
-                background-color: #E5ECF4;
-                border-radius: 50%;
-                position: absolute;
-                top: 0;
-                right: calc(100% + 64px);
-            }
-        }
 
         &::after {
             content: "";
@@ -162,15 +147,16 @@
 }
 
 @media only screen and (max-width: 930px) {
-    .easy{
+    .easy {
 
-        &__wrapper{
+        &__wrapper {
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
         }
-        &__list{
+
+        &__list {
             display: inline-block;
         }
 
