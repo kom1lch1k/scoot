@@ -98,3 +98,12 @@
     }
 
 }
+
+@media only screen and (max-width: 852px){
+    .header{
+        &__button{
+            margin-left: 170px;
+        }
+    }
+
+}

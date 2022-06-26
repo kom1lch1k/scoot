@@ -10,23 +10,24 @@
         display: flex;
         align-items: center;
         gap: 30px;
+
+        &::before {
+            content: "";
+            position: absolute;
+            top: 42px;
+            left: -19%;
+            max-width: 973px;
+            width: 100%;
+            height: 0;
+            border: 8px solid #E5ECF4;
+            color: #E5ECF4;
+        }
     }
 
     &__item {
         max-width: 350px;
         width: 100%;
         position: relative;
-
-        &::before {
-            content: "";
-            display: inline-block;
-            min-width: 943px;
-            width: 100%;
-            height: 15px;
-            background: #F2F2F2;
-            margin-bottom: 50px;
-            margin-left: -166px;
-        }
 
 
         &::after {
@@ -77,9 +78,7 @@
             gap: 90px;
         }
 
-        &__item{
-            
-        }
+        &__item {}
 
     }
 

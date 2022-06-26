@@ -14,7 +14,20 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+
+        &::before {
+            content: "";
+            position: absolute;
+            top: 42px;
+            left: -19%;
+            max-width: 973px;
+            width: 100%;
+            height: 0;
+            border: 8px solid #E5ECF4;
+            color: #E5ECF4;
+        }
     }
+
 
     &__item {}
 
@@ -45,6 +58,20 @@
             display: inline-block;
             background-image: url(./../images/payment.svg);
 
+        }
+    }
+
+    &__border {
+        &::before {
+            content: "";
+            display: inline-block;
+            width: 445px;
+            height: 445px;
+            background-color: #E5ECF4;
+            border-radius: 50%;
+            position: absolute;
+            top: 0;
+            left: calc(100% + 64px);
         }
     }
 
